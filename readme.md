@@ -22,7 +22,7 @@
 }
 ```
 
-- New terminal: `Control+Shift+`'
+- New terminal: `Control+Shift+{BACKTICK}`
 - From project root directory:
 
 ```text
