@@ -23,3 +23,16 @@
 ```
 
 - New terminal: `Control+Shift+`'
+- From project root directory:
+
+```text
+dotnet new console -o src/DotNetSampleApp
+```
+
+- And run with:
+
+```text
+dotnet run --project src/DotNetSampleApp
+```
+
+
