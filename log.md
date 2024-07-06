@@ -1,6 +1,17 @@
 # DotNetSampleApp
-
 ## Saturday, 7/6/24
+
+- Looking at `Razor Telemetry` and trying to turn it off \
+(until I understand what it is and does)
+- See [here](https://code.visualstudio.com/docs/getstarted/telemetry#_disable-telemetry-reporting)
+
+![](docs/2024-07-06-04.png)
+
+- Reviewing the information in this [link](https://code.visualstudio.com/docs/getstarted/telemetry#_output-channel-for-telemetry-events) and this:
+
+![](docs/2024-07-06-05.png)
+
+- Really nice!
 
 - Cloned repo to my desktop machine: `DESKTOP-5PV6HMC`
 - Hit `Control-F5` and encountered:
