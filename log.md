@@ -7,7 +7,7 @@
 
 ![](docs/2024-07-06-01.png)
 
-- Noticed that I as in my default profile
+- Noticed that I was in my default profile
 - Went to my `C#` profile and clicked on `Reinstall Extensions` and got the following text in my terminal.
 - (See `docs\2024-07-06-01-terminal.txt`)
 - And I was able to run the app
