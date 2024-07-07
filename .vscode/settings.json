@@ -1,5 +1,12 @@
 {
     "editor.formatOnSave": true,
     "window.zoomLevel": 2,
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "csharp.debug.logging.diagnosticsLog.debugEngineAPITracing": "all",
+    "csharp.debug.logging.diagnosticsLog.debugRuntimeEventTracing": true,
+    "csharp.debug.logging.diagnosticsLog.expressionEvaluationTracing": true,
+    "csharp.debug.logging.diagnosticsLog.protocolMessages": true,
+    "csharp.debug.logging.diagnosticsLog.startDebuggingTracing": true,
+    "csharp.debug.logging.elapsedTiming": true,
+    "omnisharp.organizeImportsOnFormat": true
 }

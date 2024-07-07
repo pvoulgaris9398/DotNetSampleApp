@@ -1,7 +1,13 @@
 ﻿
+using System;
 using static System.Console;
 
-WriteLine("DotNetSampleApp is running...");
+var now = DateTime.Now;
+
+if (now > new DateTime(2022, 10, 1))
+{
+    WriteLine($"DotNetSampleApp is running {now}...");
+}
 
 WriteLine("Press any key to continue...");
 

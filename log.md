@@ -1,4 +1,9 @@
 # DotNetSampleApp
+
+## Sunday, 7/7/24
+
+- https://github.com/dotnet/vscode-csharp/issues/5402
+
 ## Saturday, 7/6/24
 
 - Looking at `Razor Telemetry` and trying to turn it off \
