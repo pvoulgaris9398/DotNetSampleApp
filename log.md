@@ -3,6 +3,8 @@
 ## Sunday, 7/7/24
 
 - https://github.com/dotnet/vscode-csharp/issues/5402
+- It looks like the _language server_ is installed with the \
+`C# Dev Kit` extension
 
 ## Saturday, 7/6/24
 
