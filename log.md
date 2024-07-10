@@ -3,9 +3,11 @@
 ## Wednesday, 7/10/24
 
 - Working through some examples using `BenchmarkDotNet` and `ReadOnlySpan`
-- These results look interesting:
+- These results look interesting, note `net6.0` vs. `net8.0` result(s):
 
 ![](docs/2024-07-10-01-benchmark-readonlyspan.png)
+
+![](docs/2024-07-10-02-benchmark-readonlyspan.png)
 
 - Note the difference with the results from the [article](https://www.codemag.com/Article/2207031/Writing-High-Performance-Code-Using-SpanT-and-MemoryT-in-C)
 
@@ -13,6 +15,9 @@
 
 - My machine is a little more powerful (in terms of cores) than his and I am seeing a 10-12x improvement
 - Also, I am using `.NET 8` which might have an affect
+- Yup, looks like I'm pretty much getting the same results as him, see my `net6.0` run above.
+- I also appear to have [AVX2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) support, which he doesn't have
+- My `net6.0` appears a little out-of-date, compared to his
 - I wonder how this will work on my new laptop
 
 ## Sunday, 7/7/24
