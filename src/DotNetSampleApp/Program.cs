@@ -14,4 +14,4 @@ BenchmarkRunner.Run<BenchmarkPerformance>();
 
 WriteLine("Press any key to continue...");
 
-ReadKey();
+Read();

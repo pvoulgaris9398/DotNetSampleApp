@@ -1,5 +1,20 @@
 # DotNetSampleApp
 
+## Wednesday, 7/10/24
+
+- Working through some examples using `BenchmarkDotNet` and `ReadOnlySpan`
+- These results look interesting:
+
+![](docs/2024-07-10-01-benchmark-readonlyspan.png)
+
+- Note the difference with the results from the [article](https://www.codemag.com/Article/2207031/Writing-High-Performance-Code-Using-SpanT-and-MemoryT-in-C)
+
+![](docs/2024-07-10-02-benchmark-from-codemag-article.png)
+
+- My machine is a little more powerful (in terms of cores) than his and I am seeing a 10-12x improvement
+- Also, I am using `.NET 8` which might have an affect
+- I wonder how this will work on my new laptop
+
 ## Sunday, 7/7/24
 
 - https://github.com/dotnet/vscode-csharp/issues/5402
