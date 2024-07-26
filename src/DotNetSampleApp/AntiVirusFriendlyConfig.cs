@@ -11,7 +11,7 @@ namespace DotNetSampleApp
     {
         public AntiVirusFriendlyConfig()
         {
-            AddJob(Job.MediumRun
+            _ = AddJob(Job.MediumRun
                 .WithToolchain(InProcessNoEmitToolchain.Instance));
         }
     }

@@ -12,7 +12,7 @@ namespace DotNetSampleApp
         /// IDE0036
         /// https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0036
         /// </summary>
-        public async override void Run()
+        public override async void Run()
         {
             try
             {
