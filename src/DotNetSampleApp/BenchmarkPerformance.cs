@@ -9,7 +9,7 @@ namespace DotNetSampleApp
     public class BenchmarkPerformance
     {
         [Params(100, 200)]
-        public int N;
+        private readonly int N = 1;
 
         private string _countries = "";
         private int _index;
@@ -26,18 +26,18 @@ namespace DotNetSampleApp
         [Benchmark]
         public void SubString()
         {
-            for (int i = 0; i < N; i++)
+            for (var i = 0; i < N; i++)
             {
-                var data = _countries.Substring(_index + 1, _numberOfCharactersToExtract - 1);
+                _ = _countries.Substring(_index + 1, _numberOfCharactersToExtract - 1);
             }
         }
 
         [Benchmark(Baseline = true)]
         public void Span()
         {
-            for (int i = 0; i < N; i++)
+            for (var i = 0; i < N; i++)
             {
-                var data = _countries.AsSpan().Slice(_index + 1, _numberOfCharactersToExtract - 1);
+                _ = _countries.AsSpan().Slice(_index + 1, _numberOfCharactersToExtract - 1);
             }
         }
     }
