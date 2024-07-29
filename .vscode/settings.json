@@ -8,5 +8,9 @@
     "csharp.debug.logging.diagnosticsLog.protocolMessages": true,
     "csharp.debug.logging.diagnosticsLog.startDebuggingTracing": true,
     "csharp.debug.logging.elapsedTiming": true,
-    "omnisharp.organizeImportsOnFormat": true
+    "omnisharp.organizeImportsOnFormat": true,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true,
+    }
 }
