@@ -4,8 +4,18 @@ namespace DotNetSampleApp
     {
         public abstract void Run();
     }
+
     public class Person : Foo
     {
+        public static void Weekday(DayOfWeek day)
+        {
+            if (day.ToString() == thisIsAConstant)
+            {
+                Console.WriteLine("We are here!");
+            }
+            return;
+        }
+
         public const string thisIsAConstant = "1";
 
         /// <summary>
@@ -24,6 +34,5 @@ namespace DotNetSampleApp
                 throw;
             }
         }
-
     }
 }
