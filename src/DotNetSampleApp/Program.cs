@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+using System.ComponentModel;
 using BenchmarkDotNet.Running;
 using DotNetSampleApp;
 using static System.Console;
@@ -14,4 +15,4 @@ BenchmarkRunner.Run<BenchmarkPerformance>();
 
 WriteLine("Press any key to continue...");
 
-Read();
+_ = Read();

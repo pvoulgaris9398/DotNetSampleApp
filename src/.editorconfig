@@ -16,6 +16,9 @@ csharp_indent_braces = false
 # Set _ALL_ rules:
 dotnet_analyzer_diagnostic.severity = error
 
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+
 # Enforce block-scoped namespaces (block_scoped is the default)
 csharp_style_namespace_declarations = block_scoped
 
