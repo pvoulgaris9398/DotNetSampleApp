@@ -1,4 +1,4 @@
-﻿using BenchmarkDotNet.Configs;
+using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Jobs;
 using BenchmarkDotNet.Toolchains.InProcess.NoEmit;
 
@@ -9,6 +9,9 @@ namespace DotNetSampleApp
     /// </summary>
     public class AntiVirusFriendlyConfig : ManualConfig
     {
+#pragma warning disable IDE0051 // Remove unused private members
+        private readonly string _notUsed = "";
+#pragma warning restore IDE0051 // Remove unused private members
         public AntiVirusFriendlyConfig()
         {
             _ = AddJob(Job.MediumRun
