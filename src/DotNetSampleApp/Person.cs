@@ -9,7 +9,10 @@ namespace DotNetSampleApp
     {
         public static void Weekday(DayOfWeek day)
         {
-            Console.WriteLine(day);
+            if (day.ToString() == thisIsAConstant)
+            {
+                Console.WriteLine("We are here!");
+            }
             return;
         }
 
