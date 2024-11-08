@@ -1,9 +1,6 @@
 {
     "recommendations": [
-        "csharpier.csharpier-vscode",
         "ms-dotnettools.csharp",
-        "ms-dotnettools.csdevkit",
-        "github.vscode-github-actions",
-        "editorconfig.editorconfig"
+        "ms-dotnettools.csdevkit"
     ]
 }
