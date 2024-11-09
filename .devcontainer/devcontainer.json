@@ -39,7 +39,8 @@
                 "pkief.material-icon-theme",
                 "ms-dotnettools.vscodeintellicode-csharp",
                 "editorconfig.editorconfig",
-                "csharpier.csharpier-vscode"
+                "csharpier.csharpier-vscode",
+                "PKief.material-icon-theme"
             ]
         }
     }
