@@ -19,7 +19,9 @@ namespace DotNetSampleApp
         public void GlobalSetup()
         {
             _countries = "India, USA, UK, Australia, Netherlands, Belgium";
+#pragma warning disable CA1865 // Use 'string.Method(char)' instead of 'string.Method(string)' for string with single char
             _index = _countries.LastIndexOf(",", StringComparison.Ordinal);
+#pragma warning restore CA1865 // Remove unused private members
             _numberOfCharactersToExtract = _countries.Length - _index;
         }
 

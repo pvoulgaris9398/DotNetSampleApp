@@ -9,9 +9,11 @@ namespace DotNetSampleApp
     /// </summary>
     public class AntiVirusFriendlyConfig : ManualConfig
     {
-#pragma warning disable IDE0051 // Remove unused private members
+#pragma warning disable IDE0051
+#pragma warning disable CS0414 // Remove unused private members
         private readonly string _notUsed = "";
-#pragma warning restore IDE0051 // Remove unused private members
+#pragma warning restore CS0414 // Remove unused private members
+#pragma warning restore IDE0051
         public AntiVirusFriendlyConfig()
         {
             _ = AddJob(Job.MediumRun
